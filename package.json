@@ -1,0 +1,14 @@
+{
+  "name": "qural-gate",
+  "version": "0.1.0",
+  "private": true,
+  "type": "module",
+  "description": "Типизированный синтетический вызов: контракт, решение и ручной результат без выполнения инструментов.",
+  "engines": {
+    "node": ">=24.15 <25"
+  },
+  "scripts": {
+    "start": "node start.js",
+    "test": "node --test --test-reporter=tap tests/*.test.js"
+  }
+}

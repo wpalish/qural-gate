@@ -1,0 +1,154 @@
+TAP version 13
+# Subtest: publication freezes RU/KK,mode and typed schema across draft changes
+ok 1 - publication freezes RU/KK,mode and typed schema across draft changes
+  ---
+  duration_ms: 23.104292
+  type: 'test'
+  ...
+# Subtest: flat JSON parser rejects decoded duplicate keys and nested/root values
+ok 2 - flat JSON parser rejects decoded duplicate keys and nested/root values
+  ---
+  duration_ms: 0.12175
+  type: 'test'
+  ...
+# Subtest: integer/text/boolean are exact types with explicit ranges and no coercion
+ok 3 - integer/text/boolean are exact types with explicit ranges and no coercion
+  ---
+  duration_ms: 0.918959
+  type: 'test'
+  ...
+# Subtest: optional omission accepted;null,missing,unknown and malformed inputs save deny
+ok 4 - optional omission accepted;null,missing,unknown and malformed inputs save deny
+  ---
+  duration_ms: 2.7535
+  type: 'test'
+  ...
+# Subtest: read model permits valid request and owner records exactly one matching result
+ok 5 - read model permits valid request and owner records exactly one matching result
+  ---
+  duration_ms: 1.375083
+  type: 'test'
+  ...
+# Subtest: write model requires independent administrator before owner acknowledgement
+ok 6 - write model requires independent administrator before owner acknowledgement
+  ---
+  duration_ms: 1.547417
+  type: 'test'
+  ...
+# Subtest: self review by administrator and review by staff are refused
+ok 7 - self review by administrator and review by staff are refused
+  ---
+  duration_ms: 1.17225
+  type: 'test'
+  ...
+# Subtest: explicit independent deny and blocked policy are terminal
+ok 8 - explicit independent deny and blocked policy are terminal
+  ---
+  duration_ms: 3.051625
+  type: 'test'
+  ...
+# Subtest: foreign staff and admin cannot acknowledge another owners allowed request
+ok 9 - foreign staff and admin cannot acknowledge another owners allowed request
+  ---
+  duration_ms: 1.325833
+  type: 'test'
+  ...
+# Subtest: wrong result schema refuses whole workspace/audit;valid result remains available
+ok 10 - wrong result schema refuses whole workspace/audit;valid result remains available
+  ---
+  duration_ms: 1.96475
+  type: 'test'
+  ...
+# Subtest: client injected decision/owner/result/publication metadata never controls stored values
+ok 11 - client injected decision/owner/result/publication metadata never controls stored values
+  ---
+  duration_ms: 1.0985
+  type: 'test'
+  ...
+# Subtest: global stale revision rejects unrelated-change confirmation with all state intact
+ok 12 - global stale revision rejects unrelated-change confirmation with all state intact
+  ---
+  duration_ms: 1.3415
+  type: 'test'
+  ...
+# Subtest: all action UUID keys stay consumed across archive and distinct requests
+ok 13 - all action UUID keys stay consumed across archive and distinct requests
+  ---
+  duration_ms: 1.723833
+  type: 'test'
+  ...
+# Subtest: published version cannot be duplicated even after archive
+ok 14 - published version cannot be duplicated even after archive
+  ---
+  duration_ms: 1.394125
+  type: 'test'
+  ...
+# Subtest: archive closes new requests but frozen existing review and result can finish
+ok 15 - archive closes new requests but frozen existing review and result can finish
+  ---
+  duration_ms: 2.038458
+  type: 'test'
+  ...
+# Subtest: pending/allowed cannot be hidden with archive;denied/completed can
+ok 16 - pending/allowed cannot be hidden with archive;denied/completed can
+  ---
+  duration_ms: 1.728208
+  type: 'test'
+  ...
+# Subtest: field keeps source and side;archive field increments parent version preserving old snapshots
+ok 17 - field keeps source and side;archive field increments parent version preserving old snapshots
+  ---
+  duration_ms: 0.803375
+  type: 'test'
+  ...
+# Subtest: publication requires both descriptions and1–20 fields each;invalid schema names/bounds refuse
+ok 18 - publication requires both descriptions and1–20 fields each;invalid schema names/bounds refuse
+  ---
+  duration_ms: 4.794959
+  type: 'test'
+  ...
+# Subtest: backward clock cannot write a decision before request
+ok 19 - backward clock cannot write a decision before request
+  ---
+  duration_ms: 1.343375
+  type: 'test'
+  ...
+# Subtest: two SQLite connections cannot acknowledge twice using same displayed revision
+ok 20 - two SQLite connections cannot acknowledge twice using same displayed revision
+  ---
+  duration_ms: 8.158375
+  type: 'test'
+  ...
+# Subtest: file restart and SQLite consistent backup preserve complete requests,reviews,results,audit
+ok 21 - file restart and SQLite consistent backup preserve complete requests,reviews,results,audit
+  ---
+  duration_ms: 8.506459
+  type: 'test'
+  ...
+# Subtest: empty restore preserves old publications,pending and completed history;pending can finish
+ok 22 - empty restore preserves old publications,pending and completed history;pending can finish
+  ---
+  duration_ms: 2.364291
+  type: 'test'
+  ...
+# Subtest: corrupt snapshots,types,review author,status,result or duplicate keys refuse restore atomically
+ok 23 - corrupt snapshots,types,review author,status,result or duplicate keys refuse restore atomically
+  ---
+  duration_ms: 2.224416
+  type: 'test'
+  ...
+# Subtest: HTTP protects shared workspace,roles,Origin,CSRF,cookie and exact result lifecycle
+ok 24 - HTTP protects shared workspace,roles,Origin,CSRF,cookie and exact result lifecycle
+  ---
+  duration_ms: 179.169834
+  type: 'test'
+  ...
+1..24
+# tests 24
+# suites 0
+# pass 24
+# fail 0
+# cancelled 0
+# skipped 0
+# todo 0
+# duration_ms 328.303416

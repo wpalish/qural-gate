@@ -1,0 +1,81 @@
+{
+  "product": "qural-gate",
+  "title": "QuralGate",
+  "reference": 10,
+  "version": "0.1.0",
+  "as_of": "2026-10-25T15:00:02.539912+00:00",
+  "tests": {
+    "passed": 24,
+    "failed": 0,
+    "log": "docs/test-output.txt"
+  },
+  "browser": {
+    "status": "ui_workflow_passed",
+    "synthetic_only": true,
+    "acceptance": [
+      "Actual IABalpha/Chromecoordinator:oldreview afterdraftRUchange refused entireworkspace9/audit9 exact and retainednote. Frozenv6 unchanged;freshindependentallow saved.",
+      "Wrong output ok:string refused entireworkspace10/audit10 and retainedJSON/note. Freshboolean output saved SYN-OK. Invalidinput qty:string+extra stored denied withtwo errors.",
+      "Newblockedpublicationv8 denied valid arguments bypolicy. Existingpendingv6 reviewed andowneracknowledged afterpublicationarchive;final1tool/5fields/2publications/4calls,19/audit19. Oldsnapshot/arguments/decision exact.",
+      "Eightauthorized HTTP400 refusals kept allworkspace19/audit19:archivednewrequest,duplicateack,foreign/adminownerbypass,blockedreview,changedarguments,usedUUID,stalerevision.",
+      "Ownedrestart34796→35048 preserved entireworkspace/audit19 andall4tablefingerprints includingusers/authsessions;27priorserverDBs unchanged;Sabaq ownerorigin untouched.",
+      "Sixfullcurrent captures opened:result1440/1280/390,denied1440/390,actual1113reviewform. DOMscrollWidth=viewport;Enter preview/result,disclosure,errornotice/resultheadingfocus andlangkkcontent withUIru observed."
+    ],
+    "proof": "docs/browser-proof.json",
+    "desktop": "docs/desktop-full.png",
+    "mobile": "docs/mobile-full.png",
+    "actual_viewports": [
+      1440,
+      1280,
+      390
+    ],
+    "external_tool_executed": false
+  },
+  "acceptance": [
+    "24passing domain/HTTP/file tests: typed strictflatJSON,decodedduplicatekeys,versions/snapshots,read/write/blocked model decisions,independentadmin/ownerresult,stale/replay/metadata,archive,clockbackward,twoSQLiteconnections,file restart/consistentSQLitebackup/emptyrestore/corruptcopies,Origin/CSRF/cookie/privacy.",
+    "Actual IABalpha/Chromecoordinator:oldreview afterdraftRUchange refused entireworkspace9/audit9 exact and retainednote. Frozenv6 unchanged;freshindependentallow saved.",
+    "Wrong output ok:string refused entireworkspace10/audit10 and retainedJSON/note. Freshboolean output saved SYN-OK. Invalidinput qty:string+extra stored denied withtwo errors.",
+    "Newblockedpublicationv8 denied valid arguments bypolicy. Existingpendingv6 reviewed andowneracknowledged afterpublicationarchive;final1tool/5fields/2publications/4calls,19/audit19. Oldsnapshot/arguments/decision exact.",
+    "Eightauthorized HTTP400 refusals kept allworkspace19/audit19:archivednewrequest,duplicateack,foreign/adminownerbypass,blockedreview,changedarguments,usedUUID,stalerevision.",
+    "Ownedrestart34796→35048 preserved entireworkspace/audit19 andall4tablefingerprints includingusers/authsessions;27priorserverDBs unchanged;Sabaq ownerorigin untouched.",
+    "Sixfullcurrent captures opened:result1440/1280/390,denied1440/390,actual1113reviewform. DOMscrollWidth=viewport;Enter preview/result,disclosure,errornotice/resultheadingfocus andlangkkcontent withUIru observed."
+  ],
+  "limits": [
+    "Authored flat1–20input and1–20output fields,text/integer/boolean only,optional omission,explicit bounds. Not generalJSONSchema or Vapiwebhook protocol. No arrays/nesting/enum/regex/formatvalidation/coercion;JSONstandardnumbers include exponent notation. Duplicate decodedkeys rejected.",
+    "ArgumentJSON/outputs trim outer whitespace via commonfieldparser;internal rawsyntax retained. Invalidnonempty arguments save deniedexample;invalidoutput refuses command withoutwrites. JSONinput maximum8000characters perfield,HTTP2MB.",
+    "Manual read/write/blocked classification;not automatic sideeffect discovery. Validreadautoallows model,validwrite requiresdifferentadmin,blocked cannot override. A poorlyauthored contract remains possible;schema conformity not semanticcorrectness/truth/accessauthorization.",
+    "Owneronly one manualresult afterallowed,independentreview one-time. Admincannotbypassowner/self-review. No cancellation/reopen/transfer or hidingpending/allowed byarchive. Archivepublication/tool closesnewrequests,oldreview/ack canfinish bysnapshot.",
+    "Allstaff see sharedworkspace;not tenant/clientisolation. Admincontract/fields/publication/review/archive/backup;staffrequests/ownack. No passwordreset/sessionrevocationUI.",
+    "Globalrevision conflicts unrelatedwrites;UUIDkeys are consumed/refused,not successful idempotent retry. Preview/hash optionalHTTP andnot humanapproval;serverrechecks oncommand inBEGINIMMEDIATE.",
+    "Unsigned JSON/hash checks consistency,not authenticity;users/auth/audit excluded;restoreemptyonly. Historical reviewerrole is not independentlyauthenticated byunsignedbackup. FullSQLite backup separately forlargefiles.",
+    "No fullintermediate draftversions,realtool/network execution/endpoints/secrets,Vapiintegration,LLM,phone/audio/ASR/TTS/messages/payment/contracts. Manualresult is synthetic,not proof of externaloperation orhumantruth.",
+    "No publicserverhosting/loadtest/fullmobile/touch/screenreader/externalsecurityaudit. UIreview scope onlysuppliedcaptures/source."
+  ],
+  "runtime": {
+    "pid": 35048,
+    "port": 8850,
+    "script": "work/program/run-qural-gate.mjs",
+    "before": "work/program/qural-restart-before.json",
+    "after": "work/program/qural-restart-after.json"
+  },
+  "preservation": {
+    "before": "work/program/qural-prior-before.json",
+    "after": "work/program/qural-prior-after.json",
+    "previous_servers": 27,
+    "own_tables_before": "work/program/qural-tables-before.json",
+    "own_tables_after": "work/program/qural-tables-after.json",
+    "sabaqloop_owner_origin": "untouched"
+  },
+  "review": {
+    "status": "ship",
+    "file": "docs/finish-review.json",
+    "scope": "Fresh source/supplied6capture UI review;no materialfixes. Not fullinteraction/mobile/touch/screenreader/securityaudit.",
+    "static_detector": "One --json invocation returned[];not parsed-browser/security cleanbill"
+  },
+  "commercial": {
+    "potential_company_matches": 10,
+    "qualified_buyers": 0,
+    "interest_confirmed": 0,
+    "new_sends": 0
+  },
+  "release_note": "QuralGate reference10:original published flattyped input/outputcontract sandbox,strict argumentdiagnostic/denial,independentwrite-model decision andowner-only one manual synthetic result.24tests;actual stale9/audit9 andwrongresult10/audit10 refusals,2acknowledged/2denied examples inclarchivedv6;final19/audit19. Ownedrestart/all4tables and27priorDBs preserved. No tools/AI/voice/externalwrites/customerclaim."
+}

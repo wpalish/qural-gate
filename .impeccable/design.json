@@ -1,0 +1,444 @@
+{
+  "schemaVersion": 2,
+  "generatedAt": "2026-10-25T15:05:02.755182Z",
+  "title": "Design System: QuralGate",
+  "extensions": {
+    "colorMeta": {
+      "primary": {
+        "displayName": "Working Green",
+        "role": "primary",
+        "tonalRamp": [
+          "oklch(15% 0.0820 173.03)",
+          "oklch(25% 0.0820 173.03)",
+          "oklch(35% 0.0820 173.03)",
+          "oklch(45% 0.0820 173.03)",
+          "oklch(60% 0.0820 173.03)",
+          "oklch(75% 0.0820 173.03)",
+          "oklch(85% 0.0820 173.03)",
+          "oklch(95% 0.0820 173.03)"
+        ]
+      },
+      "primary-hover": {
+        "displayName": "Deep Working Green",
+        "role": "primary",
+        "tonalRamp": [
+          "oklch(15% 0.0718 173.05)",
+          "oklch(25% 0.0718 173.05)",
+          "oklch(35% 0.0718 173.05)",
+          "oklch(45% 0.0718 173.05)",
+          "oklch(60% 0.0718 173.05)",
+          "oklch(75% 0.0718 173.05)",
+          "oklch(85% 0.0718 173.05)",
+          "oklch(95% 0.0718 173.05)"
+        ]
+      },
+      "navy": {
+        "displayName": "Cabinet Navy",
+        "role": "secondary",
+        "tonalRamp": [
+          "oklch(15% 0.0733 248.44)",
+          "oklch(25% 0.0733 248.44)",
+          "oklch(35% 0.0733 248.44)",
+          "oklch(45% 0.0733 248.44)",
+          "oklch(60% 0.0733 248.44)",
+          "oklch(75% 0.0733 248.44)",
+          "oklch(85% 0.0733 248.44)",
+          "oklch(95% 0.0733 248.44)"
+        ]
+      },
+      "ink": {
+        "displayName": "Cabinet Ink",
+        "role": "neutral",
+        "tonalRamp": [
+          "oklch(15% 0.0513 249.96)",
+          "oklch(25% 0.0513 249.96)",
+          "oklch(35% 0.0513 249.96)",
+          "oklch(45% 0.0513 249.96)",
+          "oklch(60% 0.0513 249.96)",
+          "oklch(75% 0.0513 249.96)",
+          "oklch(85% 0.0513 249.96)",
+          "oklch(95% 0.0513 249.96)"
+        ]
+      },
+      "page": {
+        "displayName": "Cool Workspace",
+        "role": "neutral",
+        "tonalRamp": [
+          "oklch(15% 0.0093 242.84)",
+          "oklch(25% 0.0093 242.84)",
+          "oklch(35% 0.0093 242.84)",
+          "oklch(45% 0.0093 242.84)",
+          "oklch(60% 0.0093 242.84)",
+          "oklch(75% 0.0093 242.84)",
+          "oklch(85% 0.0093 242.84)",
+          "oklch(95% 0.0093 242.84)"
+        ]
+      },
+      "surface": {
+        "displayName": "White Surface",
+        "role": "neutral",
+        "tonalRamp": [
+          "oklch(15% 0.0000 0.00)",
+          "oklch(25% 0.0000 0.00)",
+          "oklch(35% 0.0000 0.00)",
+          "oklch(45% 0.0000 0.00)",
+          "oklch(60% 0.0000 0.00)",
+          "oklch(75% 0.0000 0.00)",
+          "oklch(85% 0.0000 0.00)",
+          "oklch(95% 0.0000 0.00)"
+        ]
+      },
+      "line": {
+        "displayName": "Divider Blue",
+        "role": "neutral",
+        "tonalRamp": [
+          "oklch(15% 0.0278 241.23)",
+          "oklch(25% 0.0278 241.23)",
+          "oklch(35% 0.0278 241.23)",
+          "oklch(45% 0.0278 241.23)",
+          "oklch(60% 0.0278 241.23)",
+          "oklch(75% 0.0278 241.23)",
+          "oklch(85% 0.0278 241.23)",
+          "oklch(95% 0.0278 241.23)"
+        ]
+      },
+      "navigation-surface": {
+        "displayName": "Navigation Mist",
+        "role": "neutral",
+        "tonalRamp": [
+          "oklch(15% 0.0195 240.74)",
+          "oklch(25% 0.0195 240.74)",
+          "oklch(35% 0.0195 240.74)",
+          "oklch(45% 0.0195 240.74)",
+          "oklch(60% 0.0195 240.74)",
+          "oklch(75% 0.0195 240.74)",
+          "oklch(85% 0.0195 240.74)",
+          "oklch(95% 0.0195 240.74)"
+        ]
+      },
+      "muted": {
+        "displayName": "Supporting Slate",
+        "role": "neutral",
+        "tonalRamp": [
+          "oklch(15% 0.0511 245.00)",
+          "oklch(25% 0.0511 245.00)",
+          "oklch(35% 0.0511 245.00)",
+          "oklch(45% 0.0511 245.00)",
+          "oklch(60% 0.0511 245.00)",
+          "oklch(75% 0.0511 245.00)",
+          "oklch(85% 0.0511 245.00)",
+          "oklch(95% 0.0511 245.00)"
+        ]
+      },
+      "input-stroke": {
+        "displayName": "Field Slate",
+        "role": "neutral",
+        "tonalRamp": [
+          "oklch(15% 0.0456 242.07)",
+          "oklch(25% 0.0456 242.07)",
+          "oklch(35% 0.0456 242.07)",
+          "oklch(45% 0.0456 242.07)",
+          "oklch(60% 0.0456 242.07)",
+          "oklch(75% 0.0456 242.07)",
+          "oklch(85% 0.0456 242.07)",
+          "oklch(95% 0.0456 242.07)"
+        ]
+      },
+      "link": {
+        "displayName": "Link Blue",
+        "role": "secondary",
+        "tonalRamp": [
+          "oklch(15% 0.0980 249.12)",
+          "oklch(25% 0.0980 249.12)",
+          "oklch(35% 0.0980 249.12)",
+          "oklch(45% 0.0980 249.12)",
+          "oklch(60% 0.0980 249.12)",
+          "oklch(75% 0.0980 249.12)",
+          "oklch(85% 0.0980 249.12)",
+          "oklch(95% 0.0980 249.12)"
+        ]
+      },
+      "pending": {
+        "displayName": "Pending Amber",
+        "role": "tertiary",
+        "tonalRamp": [
+          "oklch(15% 0.0982 77.06)",
+          "oklch(25% 0.0982 77.06)",
+          "oklch(35% 0.0982 77.06)",
+          "oklch(45% 0.0982 77.06)",
+          "oklch(60% 0.0982 77.06)",
+          "oklch(75% 0.0982 77.06)",
+          "oklch(85% 0.0982 77.06)",
+          "oklch(95% 0.0982 77.06)"
+        ]
+      },
+      "error": {
+        "displayName": "Error Red",
+        "role": "tertiary",
+        "tonalRamp": [
+          "oklch(15% 0.1458 27.85)",
+          "oklch(25% 0.1458 27.85)",
+          "oklch(35% 0.1458 27.85)",
+          "oklch(45% 0.1458 27.85)",
+          "oklch(60% 0.1458 27.85)",
+          "oklch(75% 0.1458 27.85)",
+          "oklch(85% 0.1458 27.85)",
+          "oklch(95% 0.1458 27.85)"
+        ]
+      },
+      "error-surface": {
+        "displayName": "Pale Error",
+        "role": "tertiary",
+        "tonalRamp": [
+          "oklch(15% 0.0165 26.65)",
+          "oklch(25% 0.0165 26.65)",
+          "oklch(35% 0.0165 26.65)",
+          "oklch(45% 0.0165 26.65)",
+          "oklch(60% 0.0165 26.65)",
+          "oklch(75% 0.0165 26.65)",
+          "oklch(85% 0.0165 26.65)",
+          "oklch(95% 0.0165 26.65)"
+        ]
+      },
+      "focus": {
+        "displayName": "Focus Amber",
+        "role": "tertiary",
+        "tonalRamp": [
+          "oklch(15% 0.1375 55.87)",
+          "oklch(25% 0.1375 55.87)",
+          "oklch(35% 0.1375 55.87)",
+          "oklch(45% 0.1375 55.87)",
+          "oklch(60% 0.1375 55.87)",
+          "oklch(75% 0.1375 55.87)",
+          "oklch(85% 0.1375 55.87)",
+          "oklch(95% 0.1375 55.87)"
+        ]
+      },
+      "selection-surface": {
+        "displayName": "Soft Selection Green",
+        "role": "tertiary",
+        "tonalRamp": [
+          "oklch(15% 0.0441 174.61)",
+          "oklch(25% 0.0441 174.61)",
+          "oklch(35% 0.0441 174.61)",
+          "oklch(45% 0.0441 174.61)",
+          "oklch(60% 0.0441 174.61)",
+          "oklch(75% 0.0441 174.61)",
+          "oklch(85% 0.0441 174.61)",
+          "oklch(95% 0.0441 174.61)"
+        ]
+      },
+      "selection-ink": {
+        "displayName": "Selection Ink",
+        "role": "tertiary",
+        "tonalRamp": [
+          "oklch(15% 0.0360 177.75)",
+          "oklch(25% 0.0360 177.75)",
+          "oklch(35% 0.0360 177.75)",
+          "oklch(45% 0.0360 177.75)",
+          "oklch(60% 0.0360 177.75)",
+          "oklch(75% 0.0360 177.75)",
+          "oklch(85% 0.0360 177.75)",
+          "oklch(95% 0.0360 177.75)"
+        ]
+      }
+    },
+    "typographyMeta": {
+      "primary-heading": {
+        "displayName": "Task heading",
+        "purpose": "Fixed inherited heading for the current form, publication or request."
+      },
+      "section-heading": {
+        "displayName": "Section heading",
+        "purpose": "Current status, historical diagnostic, independent decision, manual result and exact schema."
+      },
+      "brand": {
+        "displayName": "Cabinet brand",
+        "purpose": "Inherited heavier identity in the navy header."
+      },
+      "body": {
+        "displayName": "Body",
+        "purpose": "System typography with authored RU/KK nodes inside the Russian interface."
+      },
+      "label": {
+        "displayName": "Control label",
+        "purpose": "Native field labels and labelled actions."
+      },
+      "supporting": {
+        "displayName": "Supporting text",
+        "purpose": "Synthetic-only boundaries, diagnostic explanation, publication digest and footer."
+      },
+      "exact-json": {
+        "displayName": "Exact JSON",
+        "purpose": "Browser-native preformatted face for unchanged raw arguments, result JSON and journal content."
+      }
+    },
+    "breakpoints": [
+      {
+        "name": "stacked-layout",
+        "value": "700px"
+      },
+      {
+        "name": "narrow-table-search",
+        "value": "600px"
+      }
+    ],
+    "shadows": [],
+    "motion": [],
+    "documentationScope": {
+      "mode": "Operate inherited scan documentation",
+      "inheritsFrom": [
+        "../terim-line/DESIGN.md",
+        "../terim-line/.impeccable/design.json"
+      ],
+      "sourceFiles": [
+        "public/app.js",
+        "public/styles.css",
+        "public/index.html"
+      ],
+      "review": "docs/finish-review.json",
+      "provenance": "docs/capture-provenance.json",
+      "captureCount": 6,
+      "reviewFormActualWidth": 1113,
+      "interactionChecksRerun": false,
+      "wholeMobileOrSecurityClaim": false,
+      "snippetBehavior": "Static self-contained visual examples; no application handlers or backend execution."
+    }
+  },
+  "components": [
+    {
+      "name": "Primary Button",
+      "kind": "button",
+      "refersTo": "button-primary",
+      "description": "Explicit publication, request save, either review decision and manual-result submits share the inherited green treatment.",
+      "html": "<button class=\"ds-button-primary\" type=\"button\" lang=\"ru\">Сохранить ручной результат</button>",
+      "css": ".ds-button-primary{font-family:system-ui,-apple-system,BlinkMacSystemFont,\"Segoe UI\",sans-serif;font-size:inherit;display:inline-block;min-height:44px;padding:.65rem 1rem;border:1px solid var(--navy,#183e60);border-radius:7px;font-weight:600;cursor:pointer;background:var(--teal,#126653);color:#fff;border-color:var(--teal,#126653);}.ds-button-primary:hover{filter:brightness(1.13);background:#0b5343;}.ds-button-primary:focus-visible{outline:3px solid #bd671a;outline-offset:3px}.ds-button-primary:disabled{opacity:.55;cursor:not-allowed}@media(max-width:700px){.ds-button-primary{max-width:100%}}"
+    },
+    {
+      "name": "Secondary Button",
+      "kind": "button",
+      "refersTo": "button-secondary",
+      "description": "White labelled actions cover refresh, return, archive and settings.",
+      "html": "<button class=\"ds-button-secondary\" type=\"button\" lang=\"ru\">Обновить запрос</button>",
+      "css": ".ds-button-secondary{font-family:system-ui,-apple-system,BlinkMacSystemFont,\"Segoe UI\",sans-serif;font-size:inherit;display:inline-block;min-height:44px;padding:.65rem 1rem;border:1px solid var(--navy,#183e60);border-radius:7px;font-weight:600;cursor:pointer;background:#fff;color:var(--navy,#183e60);}.ds-button-secondary:hover{filter:brightness(1.13);}.ds-button-secondary:focus-visible{outline:3px solid #bd671a;outline-offset:3px}.ds-button-secondary:disabled{opacity:.55;cursor:not-allowed}@media(max-width:700px){.ds-button-secondary{max-width:100%}}"
+    },
+    {
+      "name": "Default Button",
+      "kind": "button",
+      "refersTo": "button-default",
+      "description": "The retained baseline button rule is navy filled; task actions use the primary or secondary variants.",
+      "html": "<button class=\"ds-button-default\" type=\"button\" lang=\"ru\">Действие</button>",
+      "css": ".ds-button-default{font-family:system-ui,-apple-system,BlinkMacSystemFont,\"Segoe UI\",sans-serif;font-size:inherit;display:inline-block;min-height:44px;padding:.65rem 1rem;border:1px solid var(--navy,#183e60);border-radius:7px;font-weight:600;cursor:pointer;background:var(--navy,#183e60);color:#fff;}.ds-button-default:hover{filter:brightness(1.13);}.ds-button-default:focus-visible{outline:3px solid #bd671a;outline-offset:3px}.ds-button-default:disabled{opacity:.55;cursor:not-allowed}@media(max-width:700px){.ds-button-default{max-width:100%}}"
+    },
+    {
+      "name": "Labeled JSON Field",
+      "kind": "input",
+      "refersTo": "field",
+      "description": "The request uses a required connected label and spellcheck-disabled native JSON textarea.",
+      "html": "<label class=\"ds-label\" for=\"ds-arguments\" lang=\"ru\">JSON аргументов</label><textarea class=\"ds-field\" id=\"ds-arguments\" name=\"argumentsJson\" required spellcheck=\"false\">{\"qty\":2,\"tag\":\"SYN\"}</textarea>",
+      "css": ".ds-label{font-family:system-ui,-apple-system,BlinkMacSystemFont,\"Segoe UI\",sans-serif;display:block;font-weight:600;margin:0 0 .35rem;color:#172e45}.ds-field{font-family:system-ui,-apple-system,BlinkMacSystemFont,\"Segoe UI\",sans-serif;font-size:inherit;width:100%;min-height:100px;resize:vertical;padding:.7rem;border:1px solid #7894aa;border-radius:7px;background:#fff;color:#172e45;caret-color:#174e7e}.ds-field:focus-visible{outline:3px solid #bd671a;outline-offset:3px}"
+    },
+    {
+      "name": "Form Panel",
+      "kind": "card",
+      "refersTo": "panel",
+      "description": "Flat white forms preserve the inherited shell; saved request evidence stays on the page ground.",
+      "html": "<section class=\"ds-panel\" lang=\"ru\"><p>Введите вымышленные аргументы. Проверка ничего не выполняет. Сохранение фиксирует версию,автора и диагностику.</p></section>",
+      "css": ".ds-panel{font-family:system-ui,-apple-system,BlinkMacSystemFont,\"Segoe UI\",sans-serif;color:#172e45;background:#fff;border:1px solid var(--line,#b9cbd9);border-radius:12px;padding:1.4rem;min-width:0}.ds-panel p{max-width:72ch;line-height:1.6;margin:.5rem 0 1rem}@media(max-width:700px){.ds-panel{padding:1rem}}"
+    },
+    {
+      "name": "Section Navigation",
+      "kind": "nav",
+      "refersTo": "navigation-current",
+      "description": "Native section controls identify the current requests collection on the inherited pale strip.",
+      "html": "<nav class=\"ds-nav\" aria-label=\"Разделы\" lang=\"ru\"><button class=\"ds-nav-button\" type=\"button\" aria-current=\"page\">Запросы</button><button class=\"ds-nav-button\" type=\"button\">Данные и доступ</button><button class=\"ds-nav-button\" type=\"button\">Выйти</button></nav>",
+      "css": ".ds-nav{display:flex;gap:.5rem;padding:.7rem max(1.25rem,calc((100% - 1160px)/2));background:#dce9f3;border-bottom:1px solid var(--line,#b9cbd9)}.ds-nav-button{font-family:system-ui,-apple-system,BlinkMacSystemFont,\"Segoe UI\",sans-serif;font-size:inherit;display:inline-block;min-height:44px;padding:.65rem 1rem;border:1px solid var(--navy,#183e60);border-radius:7px;font-weight:600;cursor:pointer;background:transparent;border-color:transparent;color:var(--navy,#183e60)}.ds-nav-button[aria-current=\"page\"]{background:#fff;border-color:var(--line,#b9cbd9)}.ds-nav-button:hover{filter:brightness(1.13)}.ds-nav-button:focus-visible{outline:3px solid #bd671a;outline-offset:3px}@media(max-width:700px){.ds-nav{padding:.6rem;flex-wrap:wrap}.ds-nav-button{flex:1;max-width:100%}}@media(max-width:600px){.ds-nav-button{flex:auto}}"
+    },
+    {
+      "name": "Historical Creation Diagnostic",
+      "kind": "custom",
+      "description": "Current refusal precedes untouched raw JSON; the initial diagnostic is separately titled. The synthetic snippet mirrors the supplied strict refusal.",
+      "html": "<section class=\"ds-evidence\" lang=\"ru\"><h2>Отказ в sandbox</h2><h2>Сохранённые аргументы</h2><pre>{\"qty\":\"2\",\"tag\":\"SYN\",\"extra\":true}</pre><section class=\"ds-initial\"><h2>Первичная проверка при создании</h2><h3>Отказ в sandbox</h3><ul class=\"ds-diagnostic\"><li>extra: Поле не объявлено</li><li>qty: Нужно безопасное целое number,без преобразования</li></ul><p class=\"ds-muted\">Неверные аргументы сохраняются как отклонённый пример.</p></section></section>",
+      "css": ".ds-evidence{font-family:system-ui,-apple-system,BlinkMacSystemFont,\"Segoe UI\",sans-serif;color:#172e45;min-width:0;overflow-wrap:anywhere}.ds-initial{border-top:1px solid var(--line,#b9cbd9);padding-top:1rem;margin-top:1rem;display:grid;gap:.4rem}.ds-evidence pre{white-space:pre-wrap;overflow-wrap:anywhere;font-size:.85rem}.ds-diagnostic li{overflow-wrap:anywhere}.ds-muted{color:#46627a;font-size:.9rem}.ds-evidence h2,.ds-review h2,.ds-result h2,.ds-schema h2{font-size:1.3rem;margin:2rem 0 .75rem;overflow-wrap:anywhere}.ds-evidence p,.ds-review p,.ds-result p,.ds-schema p{max-width:72ch;line-height:1.6;margin:.5rem 0 1rem;overflow-wrap:anywhere}"
+    },
+    {
+      "name": "Independent Decision Form",
+      "kind": "custom",
+      "description": "Native pending-request form for the non-owner administrator. This static snippet renders the real labels and submitter values without submitting data.",
+      "html": "<form class=\"ds-review\" lang=\"ru\"><h2>Решение для этой версии</h2><label class=\"ds-form-label\" for=\"ds-review-note\">Основание решения</label><textarea class=\"ds-form-field\" id=\"ds-review-note\" name=\"note\" required></textarea><div class=\"ds-form-actions\"><button class=\"ds-submit\" type=\"submit\" name=\"action\" value=\"review_allow\">Разрешить модель</button><button class=\"ds-submit\" type=\"submit\" name=\"action\" value=\"review_deny\">Отклонить модель</button></div></form>",
+      "css": ".ds-review{font-family:system-ui,-apple-system,BlinkMacSystemFont,\"Segoe UI\",sans-serif;color:#172e45;background:#fff;border:1px solid var(--line,#b9cbd9);border-radius:12px;padding:1.4rem;min-width:0;}.ds-evidence h2,.ds-review h2,.ds-result h2,.ds-schema h2{font-size:1.3rem;margin:2rem 0 .75rem;overflow-wrap:anywhere}.ds-evidence p,.ds-review p,.ds-result p,.ds-schema p{max-width:72ch;line-height:1.6;margin:.5rem 0 1rem;overflow-wrap:anywhere}.ds-form-label{display:block;font-weight:600;margin:1rem 0 .35rem}.ds-form-field{font-family:system-ui,-apple-system,BlinkMacSystemFont,\"Segoe UI\",sans-serif;font-size:inherit;width:100%;min-height:100px;resize:vertical;padding:.7rem;border:1px solid #7894aa;border-radius:7px;background:#fff;color:#172e45;caret-color:#174e7e}.ds-form-field:focus-visible{outline:3px solid #bd671a;outline-offset:3px}.ds-submit{font-family:system-ui,-apple-system,BlinkMacSystemFont,\"Segoe UI\",sans-serif;font-size:inherit;min-height:44px;padding:.65rem 1rem;border:1px solid var(--teal,#126653);border-radius:7px;font-weight:600;cursor:pointer;background:var(--teal,#126653);color:#fff}.ds-submit:hover{background:#0b5343;filter:brightness(1.13)}.ds-submit:focus-visible{outline:3px solid #bd671a;outline-offset:3px}.ds-submit:disabled{opacity:.55;cursor:not-allowed}.ds-form-actions{display:flex;gap:.6rem;flex-wrap:wrap;margin-top:1rem}@media(max-width:700px){.ds-submit{max-width:100%}}@media(max-width:700px){.ds-review{padding:1rem}}"
+    },
+    {
+      "name": "Owner Manual Result Form",
+      "kind": "custom",
+      "description": "Native owner-only manual-result form. Runtime derives initial JSON from saved required outputs; the static panel leaves the editor blank.",
+      "html": "<form class=\"ds-result\" lang=\"ru\"><h2>Ручной синтетический результат</h2><p>Это один вымышленный образец. Запись не запускает инструмент и не подтверждает реальную операцию.</p><label class=\"ds-form-label\" for=\"ds-result-json\">JSON результата</label><textarea class=\"ds-form-field\" id=\"ds-result-json\" name=\"resultJson\" required spellcheck=\"false\"></textarea><label class=\"ds-form-label\" for=\"ds-result-note\">Основание ручной отметки</label><textarea class=\"ds-form-field\" id=\"ds-result-note\" name=\"note\" required></textarea><button class=\"ds-submit\" type=\"submit\">Сохранить ручной результат</button></form>",
+      "css": ".ds-result{font-family:system-ui,-apple-system,BlinkMacSystemFont,\"Segoe UI\",sans-serif;color:#172e45;background:#fff;border:1px solid var(--line,#b9cbd9);border-radius:12px;padding:1.4rem;min-width:0;}.ds-evidence h2,.ds-review h2,.ds-result h2,.ds-schema h2{font-size:1.3rem;margin:2rem 0 .75rem;overflow-wrap:anywhere}.ds-evidence p,.ds-review p,.ds-result p,.ds-schema p{max-width:72ch;line-height:1.6;margin:.5rem 0 1rem;overflow-wrap:anywhere}.ds-form-label{display:block;font-weight:600;margin:1rem 0 .35rem}.ds-form-field{font-family:system-ui,-apple-system,BlinkMacSystemFont,\"Segoe UI\",sans-serif;font-size:inherit;width:100%;min-height:100px;resize:vertical;padding:.7rem;border:1px solid #7894aa;border-radius:7px;background:#fff;color:#172e45;caret-color:#174e7e}.ds-form-field:focus-visible{outline:3px solid #bd671a;outline-offset:3px}.ds-submit{font-family:system-ui,-apple-system,BlinkMacSystemFont,\"Segoe UI\",sans-serif;font-size:inherit;min-height:44px;padding:.65rem 1rem;border:1px solid var(--teal,#126653);border-radius:7px;font-weight:600;cursor:pointer;background:var(--teal,#126653);color:#fff}.ds-submit:hover{background:#0b5343;filter:brightness(1.13)}.ds-submit:focus-visible{outline:3px solid #bd671a;outline-offset:3px}.ds-submit:disabled{opacity:.55;cursor:not-allowed}.ds-form-actions{display:flex;gap:.6rem;flex-wrap:wrap;margin-top:1rem}@media(max-width:700px){.ds-submit{max-width:100%}}@media(max-width:700px){.ds-result{padding:1rem}}"
+    },
+    {
+      "name": "Exact Schema Disclosure",
+      "kind": "custom",
+      "refersTo": "exact-schema-disclosure",
+      "description": "Native disclosure of the frozen request contract; this synthetic excerpt demonstrates input fields and separately authored RU/KK descriptions. Runtime also renders the saved output list.",
+      "html": "<details class=\"ds-schema\" lang=\"ru\"><summary>Точная схема этого запроса</summary><h2>SYN_CHECK · v6</h2><p class=\"ds-authored\" lang=\"ru\">Только синтетический пример.</p><p class=\"ds-authored\" lang=\"kk\">Тек синтетикалық мысал.</p><h3>Аргументы</h3><ul class=\"ds-contract-fields\"><li>qty · Целое число · обязательно</li><li>tag · Текст · обязательно</li><li>confirmed · true/false · можно пропустить</li></ul><p class=\"ds-muted\">Плоский JSON. Без вложений,лишних/повторных ключей и преобразования типов. Это не API или выполнение инструмента.</p></details>",
+      "css": ".ds-schema{font-family:system-ui,-apple-system,BlinkMacSystemFont,\"Segoe UI\",sans-serif;color:#172e45;margin-top:1rem;min-width:0;overflow-wrap:anywhere}.ds-schema summary{cursor:pointer;min-height:44px;display:list-item;padding:.7rem 0}.ds-schema summary:focus-visible{outline:3px solid #bd671a;outline-offset:3px}.ds-contract-fields{padding-left:1.5rem}.ds-authored{white-space:pre-wrap}.ds-muted{color:#46627a;font-size:.9rem}.ds-evidence h2,.ds-review h2,.ds-result h2,.ds-schema h2{font-size:1.3rem;margin:2rem 0 .75rem;overflow-wrap:anywhere}.ds-evidence p,.ds-review p,.ds-result p,.ds-schema p{max-width:72ch;line-height:1.6;margin:.5rem 0 1rem;overflow-wrap:anywhere}"
+    }
+  ],
+  "narrative": {
+    "northStar": "The Shared Work Cabinet",
+    "overview": "QuralGate extends the documented TerimLine / SynaRoute Operate cabinet. It keeps the navy identity and navigation, pale blue workspace, white labelled forms, green explicit actions, system typography, and native controls. The incumbent system remains the visual authority; this is an original bounded reference10 Vapi direction expressed as a synthetic typed-contract workspace.\n\nIts character is direct, flat, and readable. Request identity, frozen version, owner and current state lead; exact saved arguments, the historical creation diagnostic, independent decision and single manual result remain separate. The signature is strict visible refusal without coercion and a native disclosure of the saved input/output contract.",
+    "keyCharacteristics": [
+      "Inherited navy navigation and pale blue workspace.",
+      "Green labelled submit actions and white bordered native forms.",
+      "System typography with a fixed-size task heading.",
+      "Exact raw JSON and individually named diagnostic errors.",
+      "Separate current status, historical creation check, independent decision and owner result.",
+      "Wrapping authored RU/KK text, timestamps and publication digests; native exact-schema disclosure."
+    ],
+    "rules": [
+      {
+        "name": "The Inherited Shell Rule",
+        "body": "Extend the current TerimLine / SynaRoute cabinet instead of replacing its palette, typography, or navigation grammar.",
+        "section": "colors"
+      },
+      {
+        "name": "The Authored Language Rule",
+        "body": "Keep authored RU/KK descriptions in their own language nodes; labels, type names, diagnostics and status copy remain Russian interface text.",
+        "section": "typography"
+      },
+      {
+        "name": "The Historical Check Rule",
+        "body": "Show the current request status first and label the saved creation diagnostic as historical; a past needs-review check must never impersonate the current completed state.",
+        "section": "components"
+      },
+      {
+        "name": "The Separate Authority Rule",
+        "body": "Keep the independent administrator decision and the original owner’s single manual result as separate labelled forms and saved evidence.",
+        "section": "components"
+      },
+      {
+        "name": "The Frozen Schema Rule",
+        "body": "Keep the request tied to its displayed publication version and exact input/output disclosure; later draft edits must not visually replace that saved evidence.",
+        "section": "components"
+      }
+    ],
+    "dos": [
+      "Do inherit the navy header, pale workspace, white form surfaces and green primary action.",
+      "Do keep connected labels, native controls, native disclosure markers and visible focus.",
+      "Do preserve authored RU/KK descriptions within Russian interface copy.",
+      "Do keep raw arguments intact and identify each strict type or unknown-field error in text.",
+      "Do distinguish the current status from the historical creation check, independent review and manual result.",
+      "Do allow long descriptions, timestamps, exact JSON and SHA256 digests to wrap.",
+      "Do keep the saved version and exact schema beside the synthetic request evidence."
+    ],
+    "donts": [
+      "Don't replace the inherited cabinet with a new visual identity, ornamental assets or animation.",
+      "Don't hide field labels or show integer bounds for a text/boolean field or text length for a number/boolean field.",
+      "Don't merge the author and independent reviewer roles into one approval control.",
+      "Don't substitute current drafts for the saved publication or diagnostic.",
+      "Don't imply a Vapi integration, real tool call, voice, LLM, external write or delivered operation.",
+      "Don't present a manual result as proof of execution, access, delivery or data truth.",
+      "Don't present the displayed SHA256 digest as a signature or security certification."
+    ]
+  }
+}

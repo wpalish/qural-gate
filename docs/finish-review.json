@@ -1,0 +1,118 @@
+{
+  "disposition": "ship",
+  "persistence": {
+    "verdict": "pass",
+    "scope": "Independent source-and-supplied-capture finish review of the QuralGate request detail and independent review surface. This is an inherited, code-led Operate extension.",
+    "context": [
+      "PRODUCT.md defines the bounded synthetic typed-request sandbox, the frozen publication snapshot, independent write-model decision and single author-entered manual result.",
+      ".impeccable/surfaces/workspace.md persists THESIS, OWN-WORLD, STORY, FIRST VIEWPORT, FORM and FINISH. FORM explicitly preserves the established cabinet and requires no new comp or seed.",
+      "The supplied incumbent ../terim-line/DESIGN.md matches the implemented navy, pale blue, green, system-type and native-form world. QuralGate DESIGN.md and capture provenance are the subsequent documentation handoff, not evidence of a new visual world.",
+      "Primary source inspected: public/app.js, public/styles.css and public/index.html. No application, domain or private-data file was changed by this review."
+    ],
+    "captures": [
+      {
+        "path": ".impeccable/review/result-1440.png",
+        "dimensions": "1440x1957",
+        "valid": true,
+        "evidence": "Document top through footer; alpha's completed SYN_CHECK v6 request, historical creation check, coordinator's independent allowance, alpha's saved manual JSON result and expanded exact v6 schema."
+      },
+      {
+        "path": ".impeccable/review/result-1280.png",
+        "dimensions": "1280x1957",
+        "valid": true,
+        "evidence": "The same completed v6 request and expanded exact schema at 1280px; header, evidence, digest and footer remain visible."
+      },
+      {
+        "path": ".impeccable/review/result-390.png",
+        "dimensions": "390x2342",
+        "valid": true,
+        "evidence": "The same completed v6 request at 390px; navigation reflows, long timestamps and publication digest wrap, native disclosure stays legible, and the footer is present."
+      },
+      {
+        "path": ".impeccable/review/denied-1440.png",
+        "dimensions": "1440x1166",
+        "valid": true,
+        "evidence": "Document top through footer; saved raw arguments contain qty as string 2 and the extra field. The current status is refusal and the creation diagnostic names both unknown-field and integer-type errors. No review or manual-result form is shown."
+      },
+      {
+        "path": ".impeccable/review/denied-390.png",
+        "dimensions": "390x1445",
+        "valid": true,
+        "evidence": "The same strict refusal at 390px; both errors, raw JSON, exact-schema disclosure, digest and return action remain readable without visible clipping."
+      },
+      {
+        "path": ".impeccable/review/review-form-current.png",
+        "dimensions": "1113x1453",
+        "valid": true,
+        "evidence": "Document top through footer; coordinator is identified as administrator, alpha owns the pending v6 request, and a labelled decision-reason textarea precedes separate allow-model and deny-model submit actions. The screenshot itself does not establish the reported publication-archive operation."
+      }
+    ],
+    "capture_validity": "All six required files were opened. Each has the claimed state and width, document top and footer, with no black, blank or half-loaded region. No recapture is required."
+  },
+  "fidelity": {
+    "verdict": "faithful",
+    "matrix": [
+      {
+        "element": "TYPE",
+        "state": "match",
+        "evidence": "public/styles.css:1-15,63-76,234-238 and all six captures: inherited system typography, a clear request heading and subordinate evidence headings; monospace is confined to exact JSON. The system face is explicitly required by OWN-WORLD and the incumbent Operate design."
+      },
+      {
+        "element": "MATERIAL",
+        "state": "match",
+        "evidence": "public/styles.css:26-62,84-90,166-195 and review-form-current.png: flat native cabinet surfaces, one-pixel dividers and a white labelled form. No fake physical material, decorative raster, ornamental icon or motion was introduced."
+      },
+      {
+        "element": "GROUND",
+        "state": "match",
+        "evidence": "public/styles.css:8-14,26-46 and all six captures preserve the specified cool pale blue workspace (#edf3f8), navy orientation (#183e60), white forms and green actions (#126653). No replacement visual world is present."
+      },
+      {
+        "element": "THESIS and FIRST VIEWPORT",
+        "state": "match",
+        "evidence": "public/app.js:39-45; completed and denied captures lead with SYN_CHECK, v6, owner, server timestamp and the current state. Saved raw arguments precede a visibly separate 'Первичная проверка при создании' section, preventing the original needs-review diagnostic from appearing to be the completed request's current state."
+      },
+      {
+        "element": "Exact diagnostic and frozen schema",
+        "state": "match",
+        "evidence": "public/app.js:33-35,39,45; denied-1440.png and denied-390.png retain the string qty and extra field while naming both refusals. All three result captures expand the native exact-schema disclosure with v6, required qty/tag, optional confirmed and the declared output fields."
+      },
+      {
+        "element": "STORY and role-specific actions",
+        "state": "match",
+        "evidence": "public/app.js:36-45 provides publish/preview/save, independent review and owner-only manual-result forms. review-form-current.png shows the non-owner administrator decision form beside the saved request context; the completed captures show a different reviewer and the original owner's manual result. The form and result are explicitly synthetic. This is source and visual evidence, not an independent authorization test."
+      },
+      {
+        "element": "Responsive and native browser details",
+        "state": "match",
+        "evidence": "public/styles.css:105-149,225-250,258-288,394-414; the 390px captures show reflowing navigation, wrapping evidence and digest, readable actions and a native disclosure marker. The result captures visibly show the amber focus outline on the disclosure."
+      },
+      {
+        "element": "Authored language and truthful boundary",
+        "state": "match",
+        "evidence": "public/index.html:2,18; public/app.js:5,29,33,39,43-45. Russian interface text surrounds separately authored RU/KK descriptions; authored KK nodes receive lang=kk. Captures label the request, independent decision and manual result as synthetic and expressly deny any proof of external execution, access, delivery or data truth."
+      },
+      {
+        "element": "FORM",
+        "state": "match",
+        "evidence": "The persisted surface brief identifies a precise code-led extension of TerimLine/SynaRoute. The captures retain that cabinet rather than importing Vapi's voice or execution presentation. No approved-comp fidelity or raster obligations apply to this surface."
+      }
+    ]
+  },
+  "ceiling": {
+    "verdict": "reached",
+    "evidence": [
+      "At the supplied quality bar, task hierarchy distinguishes current state, historical check, raw arguments, exact diagnostic, independent decision and saved manual result.",
+      "The inherited Operate world's useful devices are present: restrained flat surfaces, visible native controls, explicit labelled actions, a focused task heading, exact JSON and a native historical-schema disclosure. Additional decoration or motion would not serve the declared task.",
+      "The supplied work/program/qural-gate-detect.json contains []. It is a static detector result only and was not rerun by this reviewer."
+    ],
+    "limits": [
+      "No browser was used by this reviewer. Reported DOM scroll widths of 1440/1280/390 and reported Enter submission, input retention, error focus and disclosure interactions are builder-supplied observations, not independently rerun checks.",
+      "This verdict covers the supplied completed, denied and administrator-review captures plus their inspected UI source. It does not establish every other form or empty/loading state at every width, complete mobile/touch coverage, a screen-reader audit, backend correctness or security.",
+      "The supplied review-form image supports the visible pending form; the claimed publication-archive transition is not independently established by pixels alone.",
+      "Finish documentation and screenshot provenance remain the parent's subsequent handoff before the overall build is complete."
+    ]
+  },
+  "material_fixes": [],
+  "keep": "Preserve the inherited navy/pale-blue/green native cabinet, the prominent current status, explicitly historical creation diagnostic, unchanged raw JSON, frozen exact schema, independent-review and owner-only-result separation, authored RU/KK language nodes, visible focus and synthetic-only wording."
+}

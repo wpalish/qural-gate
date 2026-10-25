@@ -1,0 +1,162 @@
+{
+  "synthetic": true,
+  "revision": 19,
+  "audit": 19,
+  "counts": {
+    "tools": 1,
+    "fields": 5,
+    "publications": 2,
+    "calls": 4
+  },
+  "outcomes": [
+    {
+      "version": 6,
+      "owner": "alpha",
+      "status": "acknowledged",
+      "reason": "independent_review_required",
+      "errors": [],
+      "review": {
+        "status": "allowed",
+        "note": "Синтетическая проверка v6,без выполнения",
+        "by": "coordinator",
+        "at": "2026-10-25T14:52:32.931Z",
+        "requestKey": "694e6bd8-3523-4516-b869-6770e9932f7c"
+      },
+      "ack": {
+        "resultJson": "{\"result\":\"SYN-OK\",\"ok\":true}",
+        "result": {
+          "result": "SYN-OK",
+          "ok": true
+        },
+        "note": "Только вымышленный результат SYN-001",
+        "by": "alpha",
+        "at": "2026-10-25T14:53:06.818Z",
+        "requestKey": "06674633-547a-4111-ac9c-7053ccc5c493"
+      }
+    },
+    {
+      "version": 6,
+      "owner": "alpha",
+      "status": "denied",
+      "reason": "invalid_arguments",
+      "errors": [
+        {
+          "field": "extra",
+          "code": "unknown_field"
+        },
+        {
+          "field": "qty",
+          "code": "integer_type"
+        }
+      ],
+      "review": null,
+      "ack": null
+    },
+    {
+      "version": 8,
+      "owner": "alpha",
+      "status": "denied",
+      "reason": "blocked_policy",
+      "errors": [],
+      "review": null,
+      "ack": null
+    },
+    {
+      "version": 6,
+      "owner": "alpha",
+      "status": "acknowledged",
+      "reason": "independent_review_required",
+      "errors": [],
+      "review": {
+        "status": "allowed",
+        "note": "Синтетика v6 после архива,без внешнего действия",
+        "by": "coordinator",
+        "at": "2026-10-25T14:54:36.354Z",
+        "requestKey": "21000b72-4877-442f-8a28-1d407bb139e0"
+      },
+      "ack": {
+        "resultJson": "{\"result\":\"SYN-ARCHIVE-OK\",\"ok\":true}",
+        "result": {
+          "result": "SYN-ARCHIVE-OK",
+          "ok": true
+        },
+        "note": "Только синтетический образец после архива",
+        "by": "alpha",
+        "at": "2026-10-25T14:54:37.016Z",
+        "requestKey": "faa6cc3e-71d5-4add-9b5c-6cd3d9ab37b6"
+      }
+    }
+  ],
+  "stale_review": {
+    "revision": 9,
+    "audit": 9,
+    "whole_state_unchanged": true,
+    "note_retained": true
+  },
+  "invalid_output_refusal": {
+    "revision": 10,
+    "audit": 10,
+    "whole_state_unchanged": true,
+    "result_and_note_retained": true
+  },
+  "historical_request_snapshot_exact_after_draft_and_archive": true,
+  "authorized_http_refusals": [
+    {
+      "label": "new request on archived publication",
+      "http": 400,
+      "error": "Новый запрос по архиву закрыт.",
+      "whole_workspace_audit_unchanged": true
+    },
+    {
+      "label": "duplicate acknowledgement",
+      "http": 400,
+      "error": "Сначала требуется разрешённый запрос без прежней отметки.",
+      "whole_workspace_audit_unchanged": true
+    },
+    {
+      "label": "foreign result owner",
+      "http": 400,
+      "error": "Результат вручную отмечает только автор запроса.",
+      "whole_workspace_audit_unchanged": true
+    },
+    {
+      "label": "admin cannot bypass owner",
+      "http": 400,
+      "error": "Результат вручную отмечает только автор запроса.",
+      "whole_workspace_audit_unchanged": true
+    },
+    {
+      "label": "blocked model cannot be reviewed",
+      "http": 400,
+      "error": "Этот запрос не ожидает решения.",
+      "whole_workspace_audit_unchanged": true
+    },
+    {
+      "label": "changed source arguments",
+      "http": 400,
+      "error": "Запрос сохраняет исходную публикацию и аргументы.",
+      "whole_workspace_audit_unchanged": true
+    },
+    {
+      "label": "used action UUID",
+      "http": 400,
+      "error": "Ключ действия неверен или уже использован.",
+      "whole_workspace_audit_unchanged": true
+    },
+    {
+      "label": "stale revision",
+      "http": 400,
+      "error": "Данные изменились в другой вкладке. Обновите экран перед сохранением.",
+      "whole_workspace_audit_unchanged": true
+    }
+  ],
+  "viewports": [
+    1440,
+    1280,
+    390
+  ],
+  "horizontal_overflow": false,
+  "authored_kk_semantics": true,
+  "keyboard": "Enter submitted preview/result;native disclosure Enter expanded;resultheading/errornotice focus observed",
+  "limits": "Only synthetic declarations,decisions and manual results;no externaltool/network/voice/AI/execution or humantruth proof. No full mobile/touch/screenreader/external security audit."
+}

@@ -1,0 +1,19 @@
+{
+  "origin": "Own CUA browser screenshots of authored synthetic data on2026-10-25",
+  "capture_files": {
+    ".impeccable/review/result-1440.png": "desktop-full.png",
+    ".impeccable/review/result-1280.png": "user-1280.png",
+    ".impeccable/review/result-390.png": "mobile-full.png",
+    ".impeccable/review/denied-1440.png": "denied-desktop.png",
+    ".impeccable/review/denied-390.png": "denied-mobile.png",
+    ".impeccable/review/review-form-current.png": "review-form.png"
+  },
+  "viewports": [
+    1440,
+    1280,
+    390
+  ],
+  "review_form_actual_width": 1113,
+  "decorative_rasters": false,
+  "owner_public_workspace_mutated": false
+}
